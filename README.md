@@ -55,7 +55,7 @@ git clone https://github.com/Nath-Ramirez/Challenge01_FundCienciaDatos.git
 cd Challenge01_FundCienciaDatos
 
 # 2. Crear entorno e instalar dependencias
-pip install -r requirements.txt9
+pip install -r requirements.txt
 
 # 3. Ejecutar el notebook de inicio a fin
 jupyter notebook notebooks/taller_practico_01_analisis.ipynb
