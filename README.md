@@ -4,9 +4,9 @@
 
 **Conjunto de datos elegido:** C - Movilidad
 
-**Fecha límite de entrega:** domingo 26 de julio de 2026
+**Fecha límite de entrega:** lunes 27 de julio de 2026
 
-**Fecha de entrega real:** [dd/mm/aaaa]
+**Fecha de entrega real:** 27/07/2026
 
 **Integrantes del equipo:**
 
@@ -20,9 +20,7 @@
 
 ## 1. Resumen ejecutivo (máx. 8 líneas)
 
-> Escriba aquí, en lenguaje para un gerente no técnico, cuál era la pregunta de negocio,
-> qué encontraron y cuál es la recomendación final. Esta sección se lee primero: debe
-> poder entenderse sin abrir el notebook.
+Se respondió a la pregunta de **¿Cuál es la probabilidad de que un sensor detecte alta frecuencia de autos dada una combinacion de clima, horas pico y no pico, y vía?**. Se encontraron patrones comportamentales respecto a la cantidad de vehículos según las horas y el clima de los sensores instalados en vías de la ciudad de Medellín. Se observa que, independientemente del sensor escogido, se genera congestión vehicular/aumenta la cantidad de vehículos detectados entre las horas de mayor actividad en la ciudad (6-9, 15 - 17).  A partir de esta información, se podría recomendar a organizaciones públicas responsables del tráfico en Medellín, tomar decisiones que mitiguen las congestiones (reorganización y planeación en vías, categorización de vehículos permitidos según el día, etc.)
 
 ## 2. Pregunta de negocio
 
