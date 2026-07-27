@@ -1,0 +1,8 @@
+﻿"Problema detectado","Columna(s) afectada(s)","Método de detección en pandas","¿Por qué es un riesgo para la decisión de negocio?"
+"Consistencia de categorias","condicion_clima","df['condicion_clima'].unique()","Segrega la información de manera inadecuada, tomando valores de la misma categoría como distintos, generando resultados estadísticos inconsistentes para cada sensor."
+"Fechas mixtas","timestamp","df['timestamp'].unique()","La presencia de variedad del formato de fechas introduce errores para el análisis del comportamiento de los sensores, vehículos y demás variables según su orden temporal"
+"Valores imposibles","conteo_vehiculos","df.describe()","Valores incorrectos en la medida pueden afectar medidas de tendencia central, que permiten tomar decisiones según el comportamiento de los vehículos"
+"Completitud","conteo_vehiculos, temperatura_c, condicion_clima","df.isnull().sum()","La falta de alguna de las tres variables especificadas, imposibilitan encontrar la relación del comportamiento de las variables; el conteo de vehículos y la condición del clima, por ejemplo, describen como afecta la cantidad de vehiculos segun las condiciones climaticas."
+"Error de georeferenciacion","lat, lon","df.describe(), df[df['lat'] < 0]","Altera el contexto y referenciación geográfica de los eventos de movilidad."
+"Unicidad","Todas","df[df.duplicated(keep=True)]","Los duplicados exactos pueden sesgar la información, afectando medidas centrales"
+"Unicidad (eventos de negocio)","sensor_id, timestamp","df[df.duplicated(subset=['sensor_id', 'timestamp'], keep=False)]","Se presentan duplicados en un sensor y tiempo iguales, pero con demás variables distintas, dificulta la elección de información relevante de los datos y su certeza."
