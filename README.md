@@ -51,7 +51,7 @@
 
 ```bash
 # 1. Clonar el repositorio
-git clone [<url-del-repo>](https://github.com/Nath-Ramirez/Challenge01_FundCienciaDatos.git)
+git clone https://github.com/Nath-Ramirez/Challenge01_FundCienciaDatos.git
 cd Challenge01_FundCienciaDatos
 
 # 2. Crear entorno e instalar dependencias
