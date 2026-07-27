@@ -65,9 +65,9 @@ jupyter notebook notebooks/taller_practico_01_analisis.ipynb
 
 | #   | Hallazgo | Evidencia (tabla/figura) |
 | --- | -------- | ------------------------ |
-| 1   |          |                          |
-| 2   |          |                          |
-| 3   |          |                          |
+| 1   | Valores faltantes      |  Antes: <img width="441" height="208" alt="image" src="https://github.com/user-attachments/assets/a0e28bf2-66ec-467e-bbfc-872b49622e0d" /><br />Despues: <img width="548" height="226" alt="image" src="https://github.com/user-attachments/assets/79d90da2-2dfc-484a-8565-c705a5b4d3c6" />
+| 2   | Rangos y valores imposibles      |  Antes: <img width="1033" height="377" alt="image" src="https://github.com/user-attachments/assets/7f5a5dfd-250d-4a5b-ba9d-e10d5c2a8e5d" /><br/><img width="870" height="558" alt="image" src="https://github.com/user-attachments/assets/09cdb28e-e6f6-4cb6-a1c4-bf03e782953f" /><br/>Despues: <img width="1019" height="379" alt="image" src="https://github.com/user-attachments/assets/328c5dce-05e1-44bf-9cae-1b1dbac437fc" /><br/><img width="860" height="558" alt="image" src="https://github.com/user-attachments/assets/798f24fb-dd47-4d4f-8156-91d9856bcf27" />
+| 3   | Formatos de fechas variables         | Antes: <img width="548" height="368" alt="image" src="https://github.com/user-attachments/assets/2a4e83be-b417-480b-85dc-d0671081aa79" /><br/>Despues:<img width="574" height="168" alt="image" src="https://github.com/user-attachments/assets/8a3553dd-d433-4b74-9660-f6265a9f4fff" />
 
 ## 6. Problemas de calidad de datos encontrados (resumen GIGO)
 
